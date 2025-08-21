@@ -1,0 +1,61 @@
+---
+title: "Capstone: Time-series & ML"
+description: "Forecasting time-series trends with classical models and deep learning."
+categories: [ML, Time-Series, Python, Webscraping, APIs]
+image: /images/dat-capstone-1.png
+image-alt: "Top Correlations by Horizon" 
+---
+
+## Problem
+Built a forecasting pipeline to predict future metrics for a stock price changes.
+
+## Data
+Combined multiple data sources from macroeconomic, microeconomic, historical stock price, and sentiment data. Webscraping and APIs were used to gather these
+
+## Approach
+- Cleaned and merged time-series
+- Explored patterns and seasonality
+- Trained RandomForest, TFT, and LSTM models
+
+## Results
+The RandomForest model was the most accurate but not accurate enough when it comes to yearly predictions
+
+## Top Correlations by Horizon
+
+![Top 10 features correlated with returns at 1‑day/1‑week/1‑month/1‑year. Short‑term is sentiment‑heavy (news/Reddit, PPI), while longer horizons shift to macro fundamentals (housing starts, retail sales, PCE, GDP).](../images/dat-capstone-1.png){fig-cap="Top Correlations by Horizon"}
+
+## 30‑Day MA: Price vs Positive News Sentiment
+
+![MSFT closing price  plotted against positive‑news sentiment . Broad co‑movement shows optimism tends to align with price uptrends.](../images/dat-capstone-2.png){fig-cap="read_title"}
+
+## High Positive Sentiment Events on Price
+
+![Red markers flag dates with unusually high positive sentiment overlaid on price.](../images/dat-capstone-3.png){fig-cap="read_title"}
+
+## 1‑Day Ahead: Actual vs Predicted (Random Forest)
+
+![RF predictions (orange) versus actual 1‑day returns. Captures direction reasonably but smooths away extreme spikes.](../images/dat-capstone-4.png){fig-cap="read_title"}
+
+## 1‑Day Ahead: Actual vs Predicted (LightGBM)
+
+![LGBM 1‑day forecasts. Smoother than actuals; tracks trend changes with modest lag and underestimates large moves.](../images/dat-capstone-5.png){fig-cap="read_title"}
+
+## 1‑Day Ahead: Actual vs Predicted (XGBoost)
+
+![XGB 1‑day forecasts. Similar bias toward conservative magnitudes, with stable tracking of mean‑reverting behavior.](../images/dat-capstone-6.png){fig-cap="read_title"}
+
+## 1‑Week Ahead: Actual vs Predicted (Random Forest)
+
+![RF 1‑week horizon. Directional fit remains, but volatility amplification at this horizon widens miss on extremes.](../images/dat-capstone-7.png){fig-cap="read_title"}
+
+## 1‑Week Ahead: Actual vs Predicted (LightGBM)
+
+![LGBM 1‑week forecasts. Predictions stay close to zero and change slowly, good at trend, weak on amplitude.](../images/dat-capstone-8.png){fig-cap="read_title"}
+
+## 1‑Week Ahead: Actual vs Predicted (XGBoost)
+
+![XGB 1‑week horizon. Best smoothness among the three but still underestimates sharp drops/spikes typical of weekly returns.](../images/dat-capstone-9.png){fig-cap="read_title"}
+
+## Repo / Live
+- Code: <https://github.com/ManuelBagasina/DATCapstone>
+

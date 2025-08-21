@@ -1,0 +1,7 @@
+This update adds:
+- gallery CSS in styles.css (appended)
+- project pages with image thumbnails and gallery placeholders
+- images/ folder with placeholder PNGs
+- projects.qmd listing updated to show images on cards
+
+Replace each placeholder image in /images with your own screenshots.

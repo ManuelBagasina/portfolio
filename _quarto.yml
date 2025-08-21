@@ -1,0 +1,26 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Manuelito Bagasina"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: projects.qmd
+        text: Projects
+      - href: notes.qmd
+        text: Notes
+    right:
+      - icon: github
+        href: https://github.com/ManuelBagasina
+  page-footer:
+    left: "© 2025 Manuelito Bagasina"
+    right: "Built with Quarto"
+
+format:
+  html:
+    theme: flatly
+    toc: false
+    css: styles.css

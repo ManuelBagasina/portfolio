@@ -1,0 +1,53 @@
+---
+title: "Diabetes: EDA & Modeling"
+description: "Exploratory analysis and baseline models on a diabetes dataset with emphasis on feature hygiene and class balance."
+categories: [EDA, ML, Health]
+image: /images/diabetes-1.png
+image-alt: "Correlation heatmap of clinical variables."
+---
+
+## Problem
+Investigated factors associated with diabetes progression to inform preventative care.
+
+## Data
+Used the publicly available dataset of patient measurements from the UCI repository.
+
+## Approach
+- Cleaned outliers and imputed missing values
+- Visualized relationships among clinical variables
+- Trained logistic regression and random forest classifiers
+
+## Results
+The tuned random forest reached 82% accuracy and highlighted BMI and glucose as key features.
+
+
+## Pair Plot of Features
+
+![Pairwise relationships between key health features (glucose, BMI, age, etc.) with diabetes outcome. Highlights clusters and potential separability between classes.](../images/diabetes-1.png){fig-cap="Rentals by Borough & Room Type."}
+
+## Feature Distributions by Outcome
+
+![Distribution of each feature split by diabetes diagnosis. Shows clear separation for glucose and BMI between positive and negative cases.](../images/diabetes-2.png){fig-cap="Rentals by Borough & Room Type."}
+
+## Correlation Heatmap
+
+![Correlation matrix of all features with outcome. Glucose and BMI show the strongest relationships with diabetes.](../images/diabetes-3.png){fig-cap="Rentals by Borough & Room Type."}
+
+## Outcome by BMI, Age, and Pregnancy Risk
+
+![Grouped analysis of diabetes outcome by BMI category, age group, and pregnancy risk. Obesity and higher pregnancy counts correlate with greater diabetes prevalence.](../images/diabetes-4.png){fig-cap="Rentals by Borough & Room Type."}
+
+## Model Performance Comparison
+
+![Comparison of Logistic Regression vs Neural Network models. Logistic Regression provides balanced performance, while Neural Network struggles with recall and F1-score.](../images/diabetes-5.png){fig-cap="Rentals by Borough & Room Type."}
+
+## Logistic Regression Feature Importance
+
+![Feature importance from logistic regression coefficients. Diabetes Pedigree Function and BMI emerge as top predictors.](../images/diabetes-6.png){fig-cap="Rentals by Borough & Room Type."}
+
+## Neural Network Feature Importance
+
+![Neural network feature importance analysis. BMI, pregnancies, and glucose are the dominant drivers of prediction.](../images/diabetes-7.png){fig-cap="Rentals by Borough & Room Type."}
+
+## Repo / Live
+- Code: <https://github.com/ManuelBagasina/DiabetesML>

@@ -1,0 +1,8 @@
+---
+title: "Quarto + GitHub Pages in 5 minutes"
+date: 2025-08-20
+description: "My exact steps to set up this site with gh-pages."
+---
+
+- Quarto project → `git init` → push to GitHub  
+- `quarto publish gh-pages` to deploy

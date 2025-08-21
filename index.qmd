@@ -1,0 +1,24 @@
+---
+title: "Hi, I'm Manuelito"
+---
+
+I turn messy data into clear answers — with **Python, SQL, and Tableau**.
+
+[Explore Projects »](projects.qmd){.btn .btn-primary}
+
+Data Analyst with hands-on experience in Python, SQL, and Tableau, adept at transforming raw data into clear, actionable business insights. Proven ability to build efficient ETL pipelines, develop interactive dashboards, and apply statistical analysis to identify trends. Delivers data-driven recommendations that improve stakeholder decision-making and drive business outcomes.
+
+I enjoy many hobbies like: Learning about history, Boxing, hiking, weighlifting, and running.
+
+- GitHub: <https://github.com/ManuelBagasina>
+- Email: <manuelito.bagasina3@gmail.com>
+- LinkedIn: <https://www.linkedin.com/in/manuelito-bagasina/>
+
+```{=yaml}
+listing:
+  contents: "projects/*"
+  type: grid
+  sort: "date desc"
+  max-items: 6
+  fields: [image, title, description]
+```

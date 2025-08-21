@@ -1,0 +1,9 @@
+---
+title: "Survey Cleaning Tips"
+date: 2025-08-20
+description: "Practical patterns I used on SolarSPELL survey data."
+---
+
+- Consistent categorical levels early  
+- Date parsing and timezone consistency  
+- Document column renames in a README

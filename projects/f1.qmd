@@ -1,0 +1,48 @@
+---
+title: "F1: Driver Performance Analysis"
+description: "Explored Formula 1 results to compare driver and circuit performance."
+categories: [EDA, Sports]
+image: /images/f1-1.png
+image-alt: "Bar chart of finishing positions by driver."
+---
+
+## Problem
+Sought patterns in race results to understand which drivers excel on specific circuits.
+
+## Data
+Pulled historical results and lap times from the Ergast API.
+
+## Approach
+- Aggregated results by driver and track
+- Visualized finishing positions and lap pace
+- Built a simple model to rank drivers by circuit type
+
+## Results
+Revealed that certain midfield drivers consistently outperform on street circuits.
+
+## Visuals
+
+## Top 10 Drivers by Podium Finishes
+
+![Bar chart of F1 drivers with the most podiums. Lewis Hamilton leads by a wide margin, followed by Michael Schumacher and Sebastian Vettel.](../images/f1-1.png){fig-cap="read_title"}
+
+## Feature Importance (Random Forest)
+
+![Permutation importance for predicting race outcomes. Starting grid position dominates as the key predictor, ahead of fastest lap speed and round number.](../images/f1-2.png){fig-cap="read_title"}
+
+## Correlation Heatmap of Key Features
+
+![Heatmap of relationships among grid, finishing position, laps, points, and podium_finish. Strong positive correlation between points and podiums is evident.](../images/f1-3.png){fig-cap="read_title"}
+
+## Top 10 Constructors by Podium Finishes
+
+![Ferrari leads all constructors in podiums, followed by McLaren and Williams—highlighting historical dominance.](../images/f1-4.png){fig-cap="read_title"}
+
+## Performance of Top 5 Drivers Over Time
+
+![Trends in points for Hamilton, Vettel, Verstappen, Alonso, and Räikkönen; shows eras of dominance and Verstappen’s rise.](../images/f1-5.png){fig-cap="read_title"}
+
+
+
+## Repo / Live
+- Code: <https://github.com/ManuelBagasina/F1>

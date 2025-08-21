@@ -1,0 +1,59 @@
+---
+title: "SolarSPELL: Survey ETL + MySQL + Analysis"
+description: "Cleaned multi-country survey data, standardized schemas, and staged to MySQL for downstream analysis."
+categories: [ETL, Python, SQL]
+image: /images/solarspell1.png
+image-alt: "Flowchart of the SolarSPELL ETL pipeline."
+---
+
+## Problem
+SolarSPELL needed a reproducible pipeline to prepare field survey results for analysis.
+
+## Data
+Collected responses from multiple countries with varying schemas and encodings.
+
+## Approach
+- Normalized column names and coded categorical values
+- Loaded cleaned tables into MySQL using SQLAlchemy
+- Produced summary dashboards to explore regional trends
+
+## Results
+Delivered a reusable ETL script and database that cut data prep time in half.
+
+## Visuals
+
+
+## Sentiment Analysis results of all free-text responses from a Survey
+
+![This was collected through ChatGPT's API. All qualitative and free-text responses were collected and given a summary(theme) and sentiment score](../images/solarspell1.png){fig-cap="read_title"}
+
+## Top Themes from Open-Ended Responses
+
+![Bar chart of the five most common themes explaining usefulness. “Resource availability” dominates, followed by affordability of technology, cost of books, cost of educational resources, and variety of tools.](../images/solarspell2.png){fig-cap="read_title"}
+
+## Health-Related Searches in Lesotho
+
+![Horizontal bar chart of search terms matched on SolarSPELL devices. “Cholera” overwhelms other topics (≈934 queries), ahead of generic “disease” (~94), “heart” (~47), “ill” (~41), “diabetes” (~36), and “hand washing” (~34), indicating content demand and potential outreach priorities.](../images/solarspell3.png){fig-cap="read_title"}
+
+## CA Plots: Productivity Lift for Users
+
+![Slide showing boxplots for Conservation Agriculture (CA) plots. SolarSPELL users have higher and more consistent yields, with median productivity ~49.15 Kg/Are vs ~45.00 Kg/Are for non-users.](../images/solarspell4.png){fig-cap="read_title"}
+
+## SP Plots: Consistent Gains Across Methods
+
+![Standard Practice (SP) plots show the same pattern: users’ median productivity ~38.00 Kg/Are vs ~30.46 Kg/Are for non-users. The note highlights similar gains observed for other crops grown with CA, reinforcing broad utility.](../images/solarspell5.png){fig-cap="read_title"}
+
+## Knowledge Sharing: More Farmers Training Others
+
+![Simple bar chart comparing the share of farmers who trained peers. SolarSPELL users are more likely to teach others—~82% vs ~77% among non-users—underscoring community diffusion effects.](../images/solarspell6.png){fig-cap="read_title"}
+
+## The “Wow” Stat: Amplified Community Impact
+
+![Users train far more people on average (≈103 individuals per farmer) than non-users (≈42). The slide frames this as ROI and scalability: each user becomes a local knowledge hub.](../images/solarspell7.png){fig-cap="read_title"}
+
+## Implications & Next Steps
+
+![Summary slide: (1) Proven model—evidence of better agricultural outcomes; (2) Leadership—users become educators, enabling sustainable development; (3) Expansion—strong case to target women coffee farmers to reduce gender gaps in access to information.](../images/solarspell8.png){fig-cap="read_title"}
+
+## Repo / Live
+- Code: <https://github.com/ManuelBagasina/solarspell>

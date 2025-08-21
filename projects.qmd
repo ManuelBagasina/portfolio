@@ -1,0 +1,10 @@
+---
+title: "Projects"
+listing:
+  contents: projects
+  type: grid
+  sort: "date desc"
+  fields: [image, title, description, categories]
+---
+
+Below are selected projects. For more, see my GitHub.

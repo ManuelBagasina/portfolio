@@ -1,0 +1,13 @@
+.quarto-listing .listing-grid .card {
+  border-radius: 14px;
+  border: 1px solid #e9ecef;
+  transition: transform .06s ease, box-shadow .06s ease;
+}
+.quarto-listing .listing-grid .card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px rgba(0,0,0,.06);
+}
+.quarto-grid-item .thumbnail img { object-fit: cover; }
+
+.gallery { display:grid; grid-template-columns:repeat(auto-fill,minmax(220px,1fr)); gap:10px; margin-top:.5rem; }
+.gallery img { width:100%; border-radius:12px; border:1px solid #e9ecef; }
