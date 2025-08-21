@@ -1,0 +1,471 @@
+[
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Below are selected projects. For more, see my GitHub.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAirbnb Market Analysis\n\n\n\nEDA\n\nAirbnb\n\n\n\nExploring price, availability, and room type in Airbnb listings in New York.\n\n\n\n\n\n\n\n\n\n\n\n\nCapstone: Time-series & ML\n\n\n\nML\n\nTime-Series\n\nPython\n\nWebscraping\n\nAPIs\n\n\n\nForecasting time-series trends with classical models and deep learning.\n\n\n\n\n\n\n\n\n\n\n\n\nDiabetes: EDA & Modeling\n\n\n\nEDA\n\nML\n\nHealth\n\n\n\nExploratory analysis and baseline models on a diabetes dataset with emphasis on feature hygiene and class balance.\n\n\n\n\n\n\n\n\n\n\n\n\nF1: Driver Performance Analysis\n\n\n\nEDA\n\nSports\n\n\n\nExplored Formula 1 results to compare driver and circuit performance.\n\n\n\n\n\n\n\n\n\n\n\n\nSolarSPELL: Survey ETL + MySQL + Analysis\n\n\n\nETL\n\nPython\n\nSQL\n\n\n\nCleaned multi-country survey data, standardized schemas, and staged to MySQL for downstream analysis.\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/f1.html",
+    "href": "projects/f1.html",
+    "title": "F1: Driver Performance Analysis",
+    "section": "",
+    "text": "Sought patterns in race results to understand which drivers excel on specific circuits."
+  },
+  {
+    "objectID": "projects/f1.html#problem",
+    "href": "projects/f1.html#problem",
+    "title": "F1: Driver Performance Analysis",
+    "section": "",
+    "text": "Sought patterns in race results to understand which drivers excel on specific circuits."
+  },
+  {
+    "objectID": "projects/f1.html#data",
+    "href": "projects/f1.html#data",
+    "title": "F1: Driver Performance Analysis",
+    "section": "Data",
+    "text": "Data\nPulled historical results and lap times from the Ergast API."
+  },
+  {
+    "objectID": "projects/f1.html#approach",
+    "href": "projects/f1.html#approach",
+    "title": "F1: Driver Performance Analysis",
+    "section": "Approach",
+    "text": "Approach\n\nAggregated results by driver and track\nVisualized finishing positions and lap pace\nBuilt a simple model to rank drivers by circuit type"
+  },
+  {
+    "objectID": "projects/f1.html#results",
+    "href": "projects/f1.html#results",
+    "title": "F1: Driver Performance Analysis",
+    "section": "Results",
+    "text": "Results\nRevealed that certain midfield drivers consistently outperform on street circuits."
+  },
+  {
+    "objectID": "projects/f1.html#visuals",
+    "href": "projects/f1.html#visuals",
+    "title": "F1: Driver Performance Analysis",
+    "section": "Visuals",
+    "text": "Visuals"
+  },
+  {
+    "objectID": "projects/f1.html#top-10-drivers-by-podium-finishes",
+    "href": "projects/f1.html#top-10-drivers-by-podium-finishes",
+    "title": "F1: Driver Performance Analysis",
+    "section": "Top 10 Drivers by Podium Finishes",
+    "text": "Top 10 Drivers by Podium Finishes\n\n\n\nBar chart of F1 drivers with the most podiums. Lewis Hamilton leads by a wide margin, followed by Michael Schumacher and Sebastian Vettel."
+  },
+  {
+    "objectID": "projects/f1.html#feature-importance-random-forest",
+    "href": "projects/f1.html#feature-importance-random-forest",
+    "title": "F1: Driver Performance Analysis",
+    "section": "Feature Importance (Random Forest)",
+    "text": "Feature Importance (Random Forest)\n\n\n\nPermutation importance for predicting race outcomes. Starting grid position dominates as the key predictor, ahead of fastest lap speed and round number."
+  },
+  {
+    "objectID": "projects/f1.html#correlation-heatmap-of-key-features",
+    "href": "projects/f1.html#correlation-heatmap-of-key-features",
+    "title": "F1: Driver Performance Analysis",
+    "section": "Correlation Heatmap of Key Features",
+    "text": "Correlation Heatmap of Key Features\n\n\n\nHeatmap of relationships among grid, finishing position, laps, points, and podium_finish. Strong positive correlation between points and podiums is evident."
+  },
+  {
+    "objectID": "projects/f1.html#top-10-constructors-by-podium-finishes",
+    "href": "projects/f1.html#top-10-constructors-by-podium-finishes",
+    "title": "F1: Driver Performance Analysis",
+    "section": "Top 10 Constructors by Podium Finishes",
+    "text": "Top 10 Constructors by Podium Finishes\n\n\n\nFerrari leads all constructors in podiums, followed by McLaren and Williams—highlighting historical dominance."
+  },
+  {
+    "objectID": "projects/f1.html#performance-of-top-5-drivers-over-time",
+    "href": "projects/f1.html#performance-of-top-5-drivers-over-time",
+    "title": "F1: Driver Performance Analysis",
+    "section": "Performance of Top 5 Drivers Over Time",
+    "text": "Performance of Top 5 Drivers Over Time\n\n\n\nTrends in points for Hamilton, Vettel, Verstappen, Alonso, and Räikkönen; shows eras of dominance and Verstappen’s rise."
+  },
+  {
+    "objectID": "projects/f1.html#repo-live",
+    "href": "projects/f1.html#repo-live",
+    "title": "F1: Driver Performance Analysis",
+    "section": "Repo / Live",
+    "text": "Repo / Live\n\nCode: https://github.com/ManuelBagasina/F1"
+  },
+  {
+    "objectID": "projects/capstone.html",
+    "href": "projects/capstone.html",
+    "title": "Capstone: Time-series & ML",
+    "section": "",
+    "text": "Built a forecasting pipeline to predict future metrics for a stock price changes."
+  },
+  {
+    "objectID": "projects/capstone.html#problem",
+    "href": "projects/capstone.html#problem",
+    "title": "Capstone: Time-series & ML",
+    "section": "",
+    "text": "Built a forecasting pipeline to predict future metrics for a stock price changes."
+  },
+  {
+    "objectID": "projects/capstone.html#data",
+    "href": "projects/capstone.html#data",
+    "title": "Capstone: Time-series & ML",
+    "section": "Data",
+    "text": "Data\nCombined multiple data sources from macroeconomic, microeconomic, historical stock price, and sentiment data. Webscraping and APIs were used to gather these"
+  },
+  {
+    "objectID": "projects/capstone.html#approach",
+    "href": "projects/capstone.html#approach",
+    "title": "Capstone: Time-series & ML",
+    "section": "Approach",
+    "text": "Approach\n\nCleaned and merged time-series\nExplored patterns and seasonality\nTrained RandomForest, TFT, and LSTM models"
+  },
+  {
+    "objectID": "projects/capstone.html#results",
+    "href": "projects/capstone.html#results",
+    "title": "Capstone: Time-series & ML",
+    "section": "Results",
+    "text": "Results\nThe RandomForest model was the most accurate but not accurate enough when it comes to yearly predictions"
+  },
+  {
+    "objectID": "projects/capstone.html#top-correlations-by-horizon",
+    "href": "projects/capstone.html#top-correlations-by-horizon",
+    "title": "Capstone: Time-series & ML",
+    "section": "Top Correlations by Horizon",
+    "text": "Top Correlations by Horizon\n\n\n\nTop 10 features correlated with returns at 1‑day/1‑week/1‑month/1‑year. Short‑term is sentiment‑heavy (news/Reddit, PPI), while longer horizons shift to macro fundamentals (housing starts, retail sales, PCE, GDP)."
+  },
+  {
+    "objectID": "projects/capstone.html#day-ma-price-vs-positive-news-sentiment",
+    "href": "projects/capstone.html#day-ma-price-vs-positive-news-sentiment",
+    "title": "Capstone: Time-series & ML",
+    "section": "30‑Day MA: Price vs Positive News Sentiment",
+    "text": "30‑Day MA: Price vs Positive News Sentiment\n\n\n\nMSFT closing price plotted against positive‑news sentiment . Broad co‑movement shows optimism tends to align with price uptrends."
+  },
+  {
+    "objectID": "projects/capstone.html#high-positive-sentiment-events-on-price",
+    "href": "projects/capstone.html#high-positive-sentiment-events-on-price",
+    "title": "Capstone: Time-series & ML",
+    "section": "High Positive Sentiment Events on Price",
+    "text": "High Positive Sentiment Events on Price\n\n\n\nRed markers flag dates with unusually high positive sentiment overlaid on price."
+  },
+  {
+    "objectID": "projects/capstone.html#day-ahead-actual-vs-predicted-random-forest",
+    "href": "projects/capstone.html#day-ahead-actual-vs-predicted-random-forest",
+    "title": "Capstone: Time-series & ML",
+    "section": "1‑Day Ahead: Actual vs Predicted (Random Forest)",
+    "text": "1‑Day Ahead: Actual vs Predicted (Random Forest)\n\n\n\nRF predictions (orange) versus actual 1‑day returns. Captures direction reasonably but smooths away extreme spikes."
+  },
+  {
+    "objectID": "projects/capstone.html#day-ahead-actual-vs-predicted-lightgbm",
+    "href": "projects/capstone.html#day-ahead-actual-vs-predicted-lightgbm",
+    "title": "Capstone: Time-series & ML",
+    "section": "1‑Day Ahead: Actual vs Predicted (LightGBM)",
+    "text": "1‑Day Ahead: Actual vs Predicted (LightGBM)\n\n\n\nLGBM 1‑day forecasts. Smoother than actuals; tracks trend changes with modest lag and underestimates large moves."
+  },
+  {
+    "objectID": "projects/capstone.html#day-ahead-actual-vs-predicted-xgboost",
+    "href": "projects/capstone.html#day-ahead-actual-vs-predicted-xgboost",
+    "title": "Capstone: Time-series & ML",
+    "section": "1‑Day Ahead: Actual vs Predicted (XGBoost)",
+    "text": "1‑Day Ahead: Actual vs Predicted (XGBoost)\n\n\n\nXGB 1‑day forecasts. Similar bias toward conservative magnitudes, with stable tracking of mean‑reverting behavior."
+  },
+  {
+    "objectID": "projects/capstone.html#week-ahead-actual-vs-predicted-random-forest",
+    "href": "projects/capstone.html#week-ahead-actual-vs-predicted-random-forest",
+    "title": "Capstone: Time-series & ML",
+    "section": "1‑Week Ahead: Actual vs Predicted (Random Forest)",
+    "text": "1‑Week Ahead: Actual vs Predicted (Random Forest)\n\n\n\nRF 1‑week horizon. Directional fit remains, but volatility amplification at this horizon widens miss on extremes."
+  },
+  {
+    "objectID": "projects/capstone.html#week-ahead-actual-vs-predicted-lightgbm",
+    "href": "projects/capstone.html#week-ahead-actual-vs-predicted-lightgbm",
+    "title": "Capstone: Time-series & ML",
+    "section": "1‑Week Ahead: Actual vs Predicted (LightGBM)",
+    "text": "1‑Week Ahead: Actual vs Predicted (LightGBM)\n\n\n\nLGBM 1‑week forecasts. Predictions stay close to zero and change slowly, good at trend, weak on amplitude."
+  },
+  {
+    "objectID": "projects/capstone.html#week-ahead-actual-vs-predicted-xgboost",
+    "href": "projects/capstone.html#week-ahead-actual-vs-predicted-xgboost",
+    "title": "Capstone: Time-series & ML",
+    "section": "1‑Week Ahead: Actual vs Predicted (XGBoost)",
+    "text": "1‑Week Ahead: Actual vs Predicted (XGBoost)\n\n\n\nXGB 1‑week horizon. Best smoothness among the three but still underestimates sharp drops/spikes typical of weekly returns."
+  },
+  {
+    "objectID": "projects/capstone.html#repo-live",
+    "href": "projects/capstone.html#repo-live",
+    "title": "Capstone: Time-series & ML",
+    "section": "Repo / Live",
+    "text": "Repo / Live\n\nCode: https://github.com/ManuelBagasina/DATCapstone"
+  },
+  {
+    "objectID": "notes.html",
+    "href": "notes.html",
+    "title": "Notes",
+    "section": "",
+    "text": "Short write-ups and experiments.\n\n\n\n\n\n\n\n\n\nQuarto + GitHub Pages in 5 minutes\n\n\nMy exact steps to set up this site with gh-pages.\n\n\n\n\n\nAug 20, 2025\n\n\n\n\n\n\n\nSurvey Cleaning Tips\n\n\nPractical patterns I used on SolarSPELL survey data.\n\n\n\n\n\nAug 20, 2025\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "notes/quarto-pages.html",
+    "href": "notes/quarto-pages.html",
+    "title": "Quarto + GitHub Pages in 5 minutes",
+    "section": "",
+    "text": "Quarto project → git init → push to GitHub\n\nquarto publish gh-pages to deploy"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Data Analyst with hands-on experience in Python, SQL, and Tableau, adept at transforming raw data into clear, actionable business insights. Proven ability to build efficient ETL pipelines, develop interactive dashboards, and apply statistical analysis to identify trends. Delivers data-driven recommendations that improve stakeholder decision-making and drive business outcomes.\nI enjoy many hobbies like: Learning about history, Boxing, hiking, weighlifting, and running.\n\nGitHub: https://github.com/ManuelBagasina\nEmail: manuelito.bagasina3@gmail.com\nLinkedIn: https://www.linkedin.com/in/manuelito-bagasina/"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hi, I’m Manuelito",
+    "section": "",
+    "text": "I turn messy data into clear answers — with Python, SQL, and Tableau.\nExplore Projects »\nData Analyst with hands-on experience in Python, SQL, and Tableau, adept at transforming raw data into clear, actionable business insights. Proven ability to build efficient ETL pipelines, develop interactive dashboards, and apply statistical analysis to identify trends. Delivers data-driven recommendations that improve stakeholder decision-making and drive business outcomes.\nI enjoy many hobbies like: Learning about history, Boxing, hiking, weighlifting, and running.\n\nGitHub: https://github.com/ManuelBagasina\nEmail: manuelito.bagasina3@gmail.com\nLinkedIn: https://www.linkedin.com/in/manuelito-bagasina/"
+  },
+  {
+    "objectID": "notes/survey-cleaning.html",
+    "href": "notes/survey-cleaning.html",
+    "title": "Survey Cleaning Tips",
+    "section": "",
+    "text": "Consistent categorical levels early\n\nDate parsing and timezone consistency\n\nDocument column renames in a README"
+  },
+  {
+    "objectID": "projects/airbnb.html",
+    "href": "projects/airbnb.html",
+    "title": "Airbnb Market Analysis",
+    "section": "",
+    "text": "This analysis examines trends in Airbnb data to uncover insights about pricing and room types."
+  },
+  {
+    "objectID": "projects/airbnb.html#rentals-by-borough-room-type",
+    "href": "projects/airbnb.html#rentals-by-borough-room-type",
+    "title": "Airbnb Market Analysis",
+    "section": "Rentals by Borough & Room Type",
+    "text": "Rentals by Borough & Room Type\n\n\n\nDistribution of total rentals across NYC boroughs, broken down by room type. Manhattan dominates, with a mix of private rooms and entire homes."
+  },
+  {
+    "objectID": "projects/airbnb.html#average-price-by-borough",
+    "href": "projects/airbnb.html#average-price-by-borough",
+    "title": "Airbnb Market Analysis",
+    "section": "Average Price by Borough",
+    "text": "Average Price by Borough\n\n\n\nComparison of average nightly prices across boroughs. Manhattan is the most expensive by far, while the Bronx offers the most affordable stays."
+  },
+  {
+    "objectID": "projects/airbnb.html#spatial-price-distribution-manhattan-focus",
+    "href": "projects/airbnb.html#spatial-price-distribution-manhattan-focus",
+    "title": "Airbnb Market Analysis",
+    "section": "Spatial Price Distribution (Manhattan Focus)",
+    "text": "Spatial Price Distribution (Manhattan Focus)\n\n\n\nMap of average rental prices in Manhattan. Properties closer to Central Park and key attractions trend higher, while areas like Hell’s Kitchen are relatively cheaper."
+  },
+  {
+    "objectID": "projects/airbnb.html#growth-of-unique-hosts-over-time",
+    "href": "projects/airbnb.html#growth-of-unique-hosts-over-time",
+    "title": "Airbnb Market Analysis",
+    "section": "Growth of Unique Hosts Over Time",
+    "text": "Growth of Unique Hosts Over Time\n\n\n\nNumber of new Airbnb hosts entering the NYC market each year. Peak host growth occurred in 2015, followed by a decline due to market saturation and regulation."
+  },
+  {
+    "objectID": "projects/airbnb.html#repo-live",
+    "href": "projects/airbnb.html#repo-live",
+    "title": "Airbnb Market Analysis",
+    "section": "Repo / Live",
+    "text": "Repo / Live\n\nCode: https://github.com/ManuelBagasina/AnalysisWorks"
+  },
+  {
+    "objectID": "projects/diabetes.html",
+    "href": "projects/diabetes.html",
+    "title": "Diabetes: EDA & Modeling",
+    "section": "",
+    "text": "Investigated factors associated with diabetes progression to inform preventative care."
+  },
+  {
+    "objectID": "projects/diabetes.html#problem",
+    "href": "projects/diabetes.html#problem",
+    "title": "Diabetes: EDA & Modeling",
+    "section": "",
+    "text": "Investigated factors associated with diabetes progression to inform preventative care."
+  },
+  {
+    "objectID": "projects/diabetes.html#data",
+    "href": "projects/diabetes.html#data",
+    "title": "Diabetes: EDA & Modeling",
+    "section": "Data",
+    "text": "Data\nUsed the publicly available dataset of patient measurements from the UCI repository."
+  },
+  {
+    "objectID": "projects/diabetes.html#approach",
+    "href": "projects/diabetes.html#approach",
+    "title": "Diabetes: EDA & Modeling",
+    "section": "Approach",
+    "text": "Approach\n\nCleaned outliers and imputed missing values\nVisualized relationships among clinical variables\nTrained logistic regression and random forest classifiers"
+  },
+  {
+    "objectID": "projects/diabetes.html#results",
+    "href": "projects/diabetes.html#results",
+    "title": "Diabetes: EDA & Modeling",
+    "section": "Results",
+    "text": "Results\nThe tuned random forest reached 82% accuracy and highlighted BMI and glucose as key features."
+  },
+  {
+    "objectID": "projects/diabetes.html#pair-plot-of-features",
+    "href": "projects/diabetes.html#pair-plot-of-features",
+    "title": "Diabetes: EDA & Modeling",
+    "section": "Pair Plot of Features",
+    "text": "Pair Plot of Features\n\n\n\nPairwise relationships between key health features (glucose, BMI, age, etc.) with diabetes outcome. Highlights clusters and potential separability between classes."
+  },
+  {
+    "objectID": "projects/diabetes.html#feature-distributions-by-outcome",
+    "href": "projects/diabetes.html#feature-distributions-by-outcome",
+    "title": "Diabetes: EDA & Modeling",
+    "section": "Feature Distributions by Outcome",
+    "text": "Feature Distributions by Outcome\n\n\n\nDistribution of each feature split by diabetes diagnosis. Shows clear separation for glucose and BMI between positive and negative cases."
+  },
+  {
+    "objectID": "projects/diabetes.html#correlation-heatmap",
+    "href": "projects/diabetes.html#correlation-heatmap",
+    "title": "Diabetes: EDA & Modeling",
+    "section": "Correlation Heatmap",
+    "text": "Correlation Heatmap\n\n\n\nCorrelation matrix of all features with outcome. Glucose and BMI show the strongest relationships with diabetes."
+  },
+  {
+    "objectID": "projects/diabetes.html#outcome-by-bmi-age-and-pregnancy-risk",
+    "href": "projects/diabetes.html#outcome-by-bmi-age-and-pregnancy-risk",
+    "title": "Diabetes: EDA & Modeling",
+    "section": "Outcome by BMI, Age, and Pregnancy Risk",
+    "text": "Outcome by BMI, Age, and Pregnancy Risk\n\n\n\nGrouped analysis of diabetes outcome by BMI category, age group, and pregnancy risk. Obesity and higher pregnancy counts correlate with greater diabetes prevalence."
+  },
+  {
+    "objectID": "projects/diabetes.html#model-performance-comparison",
+    "href": "projects/diabetes.html#model-performance-comparison",
+    "title": "Diabetes: EDA & Modeling",
+    "section": "Model Performance Comparison",
+    "text": "Model Performance Comparison\n\n\n\nComparison of Logistic Regression vs Neural Network models. Logistic Regression provides balanced performance, while Neural Network struggles with recall and F1-score."
+  },
+  {
+    "objectID": "projects/diabetes.html#logistic-regression-feature-importance",
+    "href": "projects/diabetes.html#logistic-regression-feature-importance",
+    "title": "Diabetes: EDA & Modeling",
+    "section": "Logistic Regression Feature Importance",
+    "text": "Logistic Regression Feature Importance\n\n\n\nFeature importance from logistic regression coefficients. Diabetes Pedigree Function and BMI emerge as top predictors."
+  },
+  {
+    "objectID": "projects/diabetes.html#neural-network-feature-importance",
+    "href": "projects/diabetes.html#neural-network-feature-importance",
+    "title": "Diabetes: EDA & Modeling",
+    "section": "Neural Network Feature Importance",
+    "text": "Neural Network Feature Importance\n\n\n\nNeural network feature importance analysis. BMI, pregnancies, and glucose are the dominant drivers of prediction."
+  },
+  {
+    "objectID": "projects/diabetes.html#repo-live",
+    "href": "projects/diabetes.html#repo-live",
+    "title": "Diabetes: EDA & Modeling",
+    "section": "Repo / Live",
+    "text": "Repo / Live\n\nCode: https://github.com/ManuelBagasina/DiabetesML"
+  },
+  {
+    "objectID": "projects/solarspell.html",
+    "href": "projects/solarspell.html",
+    "title": "SolarSPELL: Survey ETL + MySQL + Analysis",
+    "section": "",
+    "text": "SolarSPELL needed a reproducible pipeline to prepare field survey results for analysis."
+  },
+  {
+    "objectID": "projects/solarspell.html#problem",
+    "href": "projects/solarspell.html#problem",
+    "title": "SolarSPELL: Survey ETL + MySQL + Analysis",
+    "section": "",
+    "text": "SolarSPELL needed a reproducible pipeline to prepare field survey results for analysis."
+  },
+  {
+    "objectID": "projects/solarspell.html#data",
+    "href": "projects/solarspell.html#data",
+    "title": "SolarSPELL: Survey ETL + MySQL + Analysis",
+    "section": "Data",
+    "text": "Data\nCollected responses from multiple countries with varying schemas and encodings."
+  },
+  {
+    "objectID": "projects/solarspell.html#approach",
+    "href": "projects/solarspell.html#approach",
+    "title": "SolarSPELL: Survey ETL + MySQL + Analysis",
+    "section": "Approach",
+    "text": "Approach\n\nNormalized column names and coded categorical values\nLoaded cleaned tables into MySQL using SQLAlchemy\nProduced summary dashboards to explore regional trends"
+  },
+  {
+    "objectID": "projects/solarspell.html#results",
+    "href": "projects/solarspell.html#results",
+    "title": "SolarSPELL: Survey ETL + MySQL + Analysis",
+    "section": "Results",
+    "text": "Results\nDelivered a reusable ETL script and database that cut data prep time in half."
+  },
+  {
+    "objectID": "projects/solarspell.html#visuals",
+    "href": "projects/solarspell.html#visuals",
+    "title": "SolarSPELL: Survey ETL + MySQL + Analysis",
+    "section": "Visuals",
+    "text": "Visuals"
+  },
+  {
+    "objectID": "projects/solarspell.html#sentiment-analysis-results-of-all-free-text-responses-from-a-survey",
+    "href": "projects/solarspell.html#sentiment-analysis-results-of-all-free-text-responses-from-a-survey",
+    "title": "SolarSPELL: Survey ETL + MySQL + Analysis",
+    "section": "Sentiment Analysis results of all free-text responses from a Survey",
+    "text": "Sentiment Analysis results of all free-text responses from a Survey\n\n\n\nThis was collected through ChatGPT’s API. All qualitative and free-text responses were collected and given a summary(theme) and sentiment score"
+  },
+  {
+    "objectID": "projects/solarspell.html#top-themes-from-open-ended-responses",
+    "href": "projects/solarspell.html#top-themes-from-open-ended-responses",
+    "title": "SolarSPELL: Survey ETL + MySQL + Analysis",
+    "section": "Top Themes from Open-Ended Responses",
+    "text": "Top Themes from Open-Ended Responses\n\n\n\nBar chart of the five most common themes explaining usefulness. “Resource availability” dominates, followed by affordability of technology, cost of books, cost of educational resources, and variety of tools."
+  },
+  {
+    "objectID": "projects/solarspell.html#health-related-searches-in-lesotho",
+    "href": "projects/solarspell.html#health-related-searches-in-lesotho",
+    "title": "SolarSPELL: Survey ETL + MySQL + Analysis",
+    "section": "Health-Related Searches in Lesotho",
+    "text": "Health-Related Searches in Lesotho\n\n\n\nHorizontal bar chart of search terms matched on SolarSPELL devices. “Cholera” overwhelms other topics (≈934 queries), ahead of generic “disease” (~94), “heart” (~47), “ill” (~41), “diabetes” (~36), and “hand washing” (~34), indicating content demand and potential outreach priorities."
+  },
+  {
+    "objectID": "projects/solarspell.html#ca-plots-productivity-lift-for-users",
+    "href": "projects/solarspell.html#ca-plots-productivity-lift-for-users",
+    "title": "SolarSPELL: Survey ETL + MySQL + Analysis",
+    "section": "CA Plots: Productivity Lift for Users",
+    "text": "CA Plots: Productivity Lift for Users\n\n\n\nSlide showing boxplots for Conservation Agriculture (CA) plots. SolarSPELL users have higher and more consistent yields, with median productivity ~49.15 Kg/Are vs ~45.00 Kg/Are for non-users."
+  },
+  {
+    "objectID": "projects/solarspell.html#sp-plots-consistent-gains-across-methods",
+    "href": "projects/solarspell.html#sp-plots-consistent-gains-across-methods",
+    "title": "SolarSPELL: Survey ETL + MySQL + Analysis",
+    "section": "SP Plots: Consistent Gains Across Methods",
+    "text": "SP Plots: Consistent Gains Across Methods\n\n\n\nStandard Practice (SP) plots show the same pattern: users’ median productivity ~38.00 Kg/Are vs ~30.46 Kg/Are for non-users. The note highlights similar gains observed for other crops grown with CA, reinforcing broad utility."
+  },
+  {
+    "objectID": "projects/solarspell.html#knowledge-sharing-more-farmers-training-others",
+    "href": "projects/solarspell.html#knowledge-sharing-more-farmers-training-others",
+    "title": "SolarSPELL: Survey ETL + MySQL + Analysis",
+    "section": "Knowledge Sharing: More Farmers Training Others",
+    "text": "Knowledge Sharing: More Farmers Training Others\n\n\n\nSimple bar chart comparing the share of farmers who trained peers. SolarSPELL users are more likely to teach others—~82% vs ~77% among non-users—underscoring community diffusion effects."
+  },
+  {
+    "objectID": "projects/solarspell.html#the-wow-stat-amplified-community-impact",
+    "href": "projects/solarspell.html#the-wow-stat-amplified-community-impact",
+    "title": "SolarSPELL: Survey ETL + MySQL + Analysis",
+    "section": "The “Wow” Stat: Amplified Community Impact",
+    "text": "The “Wow” Stat: Amplified Community Impact\n\n\n\nUsers train far more people on average (≈103 individuals per farmer) than non-users (≈42). The slide frames this as ROI and scalability: each user becomes a local knowledge hub."
+  },
+  {
+    "objectID": "projects/solarspell.html#implications-next-steps",
+    "href": "projects/solarspell.html#implications-next-steps",
+    "title": "SolarSPELL: Survey ETL + MySQL + Analysis",
+    "section": "Implications & Next Steps",
+    "text": "Implications & Next Steps\n\n\n\nSummary slide: (1) Proven model—evidence of better agricultural outcomes; (2) Leadership—users become educators, enabling sustainable development; (3) Expansion—strong case to target women coffee farmers to reduce gender gaps in access to information."
+  },
+  {
+    "objectID": "projects/solarspell.html#repo-live",
+    "href": "projects/solarspell.html#repo-live",
+    "title": "SolarSPELL: Survey ETL + MySQL + Analysis",
+    "section": "Repo / Live",
+    "text": "Repo / Live\n\nCode: https://github.com/ManuelBagasina/solarspell"
+  }
+]

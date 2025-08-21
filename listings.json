@@ -1,0 +1,19 @@
+[
+  {
+    "listing": "/projects.html",
+    "items": [
+      "/projects/airbnb.html",
+      "/projects/capstone.html",
+      "/projects/diabetes.html",
+      "/projects/f1.html",
+      "/projects/solarspell.html"
+    ]
+  },
+  {
+    "listing": "/notes.html",
+    "items": [
+      "/notes/quarto-pages.html",
+      "/notes/survey-cleaning.html"
+    ]
+  }
+]
